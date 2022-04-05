@@ -1,0 +1,3 @@
+/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-27.10.21/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-27.10.21/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-27.10.21/cmake-build-debug/CMakeFiles/EsercitazioneMPI___27_10_21.dir
