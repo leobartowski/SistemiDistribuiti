@@ -1,3 +1,3 @@
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/EserciziConMatriciMPI.dir
+/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/EserciziConMatriciMPI/cmake-build-debug/CMakeFiles/EserciziConMatriciMPI.dir

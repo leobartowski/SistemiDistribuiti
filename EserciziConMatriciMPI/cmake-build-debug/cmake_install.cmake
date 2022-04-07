@@ -1,4 +1,4 @@
-# Install script for directory: /Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EserciziConMatriciMPI
+# Install script for directory: /Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/EserciziConMatriciMPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EserciziConMatriciMPI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/EserciziConMatriciMPI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

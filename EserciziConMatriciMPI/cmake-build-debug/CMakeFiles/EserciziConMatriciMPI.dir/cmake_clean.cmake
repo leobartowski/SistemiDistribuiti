@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EserciziConMatriciMPI.dir/main.c.o"
+  "CMakeFiles/EserciziConMatriciMPI.dir/main.c.o.d"
   "EserciziConMatriciMPI"
   "EserciziConMatriciMPI.pdb"
 )
