@@ -38,7 +38,6 @@ typedef struct {
 
     int max;
     int rank;
-
 } rankToMax;
 
 // TODO: Usa nProc = 4 poiché dim/nProc deve essere un numero intero
@@ -151,7 +150,6 @@ int main(int argc, char *argv[]) {
         MPI_Comm_split(newComm, color, myRank, &newComm);
 
     } while (conteggio < nProc);
-
 
     if (myRank == 0) {
         sleep(1);
