@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
     // MPI_Type_create_resized allows to change the lower bound and extent of an MPI_Datatype.
     // This feature finds its use when multiple elements are sent (count > 1); typically to interleave non-contiguous datatypes.
     MPI_Type_create_resized(column, 0, 1 * (sizeof(int)), &columns);
-    // MPI_Type_commit must be called on user-defined  datatypes before they may be used in communications.
+    // MPI_Type_commit must be called on user-defined datatypes before they may be used in communications.
     MPI_Type_commit(&columns);
 
     // PUNTO 1 e 2
