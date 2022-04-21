@@ -16,6 +16,7 @@ void readMatrixFromFile(char *fileName, int *mat, int dim1, int dim2) {
     }
 }
 
+
 void printMatrix(int *mat, int dim1, int dim2, int myRank) {
     printf("\nsono il processo %d e stampo la matrice \n", myRank);
     for (int i = 0; i < dim1; i++) {
@@ -70,8 +71,8 @@ int main(int argc, char *argv[]) {
 
     Cioè, MPI_Type_Vector mi dà la possibilità di creare colonne fatte da:
      blockCount  = elementi (numero di righe -> quanti elementi ha una colonna),
-     blockCount =  quanto sono lunghi i blocchi -> se devo inviare colonne metto sempre 1!
-     stride = distanza dall'inizio di ogni blocco, espressa in numero di elementi -> metto sempre uguale a blockCount matrici quadrate
+     blockLenght =  quanto sono lunghi i blocchi -> se devo inviare colonne metto sempre 1!
+     stride = distanza dall'inizio di ogni blocco, espressa in numero di elementi -> metto sempre uguale a blockCount matrici quadrate (colonne)
      4 parametro = Datatype del singolo blocco
      5 parametro = Datatype che sto creando
 

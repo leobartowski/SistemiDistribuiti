@@ -90,6 +90,7 @@ public class Client {
             }
         } else {
 
+
             c1.activateMatrixService();
             int[][] matrix = c1.readMatrixFromFile("matrix.txt");
             try {
