@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "limits.h"
 #include "mpi.h"
 
 void readMatrix(char *fileName, int *matrix, int dim1, int dim2) {
@@ -69,15 +70,52 @@ int main(int argc, char *argv[]) {
 //    printMatrix(&maxVector[0], matrixDim, 1, myRank);
 
     //! Punto 3
-    int vectorV0[nProc];
+    int v0AndRank[2], globalResult[2]; // Utilizzo un array di dimensione due per avere valore e rango da utilizzare in combinazione con MPI_MAXLOC (vedi docs)
+    int color = 0; // mi serve per creare il communicator
+    v0AndRank[0] = maxVector[0];
+    v0AndRank[1] = myRank;// Deve essere il massimo
 
-    // Con la Allgather ogni processo invia il suo valore di vi maxVector[0]
-    // e ogni processo riceve la
-    int valueToSend = maxVector[0];
-    MPI_Allgather(&valueToSend, 1, MPI_INT, &vectorV0, 1, MPI_INT, MPI_COMM_WORLD);
+    // Questo 2 dovrebbe essere 6 per la traccia ma visto che ho solo 4 processi vado a scegliere solo i 2 max
+
+    int numberOfProcessMax = 2; // Numero di processi che mi servono per la topologia dei massimi
+    for (int i = 0; i < numberOfProcessMax; ++i) {
+        MPI_Allreduce(&v0AndRank[0], &globalResult[0], 1, MPI_2INT, MPI_MAXLOC, MPI_COMM_WORLD);
+        if (globalResult[1] == myRank) { // In questo if entrano solo i processi che hanno il massimo valore
+            v0AndRank[0] = INT_MIN;
+            color = 1;
+        }
+    }
+    if (color == 1) {
+        printf("Solo il processo %d e il mio valore è %d \n", myRank, maxVector[0]);
+    }
 
     MPI_Barrier(MPI_COMM_WORLD);
-    printMatrix(&vectorV0[nProc], nProc, 1, myRank);
+
+    MPI_Comm maxComm; // Communicator che mi serve per far parlare i processi che posseggono i valori massimi
+
+    MPI_Comm_split(MPI_COMM_WORLD, color, 0, &maxComm);
+
+    int dims[2] = { 0 };
+    int nDims = 1, periods[nDims];// in this way we can create a topology with preferred dimension
+    periods[0] = 0; // serve nel caso in cui volessi creare una topologia chiusa su se stessa (toroide)
+
+    // Topologia
+    MPI_Comm topologyComm;
+
+    if (color == 1) {
+
+        MPI_Dims_create(numberOfProcessMax, nDims, dims);
+        MPI_Cart_create(maxComm, nDims, dims, periods, 0, &topologyComm);
+
+        int topologyRank;
+        MPI_Comm_rank(topologyComm, &topologyRank);
+
+        // need to know the coords in the mesh
+        int myCoords;
+        int rangoDx, rangoSx;
+        MPI_Cart_coords(topologyComm, topologyRank, 1, &myCoords);
+        printf("Sono il processo %d topologyRank: %d -- Pos(%d) \n", myRank, topologyRank, myCoords);
+    }
 
     MPI_Finalize();
     return 0;
