@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Gennaio2020" targetName="Gennaio2020" />
+      <config projectName="Febbraio2019" targetName="Febbraio2019" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcc31e04-34bb-4b33-afb8-5767c5afcd50" name="Changes" comment="" />
+    <list default="true" id="e6204796-b3ce-4d08-adf1-3e3f670858a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +30,7 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28SwxwBma9CyaogyKtZRKHKv5rW" />
+  <component name="ProjectId" id="28Vgn7cMINi2YMCmfuSXWqwpjJn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,19 +41,16 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Gennaio2020&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Febbraio2019&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Gennaio2020" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Gennaio2020" TARGET_NAME="Gennaio2020" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Gennaio2020" RUN_TARGET_NAME="Gennaio2020">
+    <configuration name="Febbraio2019" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Febbraio2019" TARGET_NAME="Febbraio2019" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Febbraio2019" RUN_TARGET_NAME="Febbraio2019">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -62,14 +59,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dcc31e04-34bb-4b33-afb8-5767c5afcd50" name="Changes" comment="" />
-      <created>1651223545117</created>
+      <changelist id="e6204796-b3ce-4d08-adf1-3e3f670858a7" name="Changes" comment="" />
+      <created>1651307330547</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651223545117</updated>
-      <workItem from="1651223546564" duration="290000" />
-      <workItem from="1651223855136" duration="12278000" />
-      <workItem from="1651306963811" duration="270000" />
+      <updated>1651307330547</updated>
+      <workItem from="1651307331869" duration="413000" />
+      <workItem from="1651307833170" duration="964000" />
+      <workItem from="1651308810358" duration="3345000" />
+      <workItem from="1651314099903" duration="4521000" />
+      <workItem from="1651500871845" duration="524000" />
     </task>
     <servers />
   </component>
