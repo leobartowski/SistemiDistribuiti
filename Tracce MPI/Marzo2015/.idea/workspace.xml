@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Gennaio2019" targetName="Gennaio2019" />
+      <config projectName="Marzo2015" targetName="Marzo2015" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78684b64-647c-46f3-b2d1-a04c618362cb" name="Changes" comment="" />
+    <list default="true" id="27297fe2-539c-4aa2-9ccb-5da6f1ad8e35" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,27 +30,29 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28WU92whP8x2C8cBhIru8GYDDZv" />
+  <component name="ProjectId" id="28e4cmZZb9ZzqnOM4d3YUdcVtgZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Gennaio2019&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Gennaio2019" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Gennaio2019" TARGET_NAME="Gennaio2019" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Gennaio2019" RUN_TARGET_NAME="Gennaio2019">
+    <configuration name="Marzo2015" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Marzo2015" TARGET_NAME="Marzo2015" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Marzo2015" RUN_TARGET_NAME="Marzo2015">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -59,17 +61,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78684b64-647c-46f3-b2d1-a04c618362cb" name="Changes" comment="" />
-      <created>1651331681224</created>
+      <changelist id="27297fe2-539c-4aa2-9ccb-5da6f1ad8e35" name="Changes" comment="" />
+      <created>1651563798530</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651331681224</updated>
-      <workItem from="1651331682729" duration="885000" />
-      <workItem from="1651332788658" duration="3817000" />
-      <workItem from="1651477175326" duration="12436000" />
-      <workItem from="1651505832149" duration="4000" />
-      <workItem from="1651563733623" duration="45000" />
-      <workItem from="1651567148226" duration="53000" />
+      <updated>1651563798530</updated>
+      <workItem from="1651563800512" duration="467000" />
+      <workItem from="1651564280553" duration="14316000" />
+      <workItem from="1651651097848" duration="2875000" />
     </task>
     <servers />
   </component>

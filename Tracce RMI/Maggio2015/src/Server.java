@@ -32,8 +32,7 @@ public class Server extends UnicastRemoteObject implements MatrixService, VoteSe
 
         try {
 
-            LocateRegistry.createRegistry(8080);
-            Server server = new Server();
+             Server server = new Server();
             Naming.rebind(("//localhost:8080/server"), server);
 
         } catch (Exception e) {
