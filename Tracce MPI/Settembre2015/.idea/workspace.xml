@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Marzo2015" targetName="Marzo2015" />
+      <config projectName="Settembre2015" targetName="Settembre2015" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27297fe2-539c-4aa2-9ccb-5da6f1ad8e35" name="Changes" comment="" />
+    <list default="true" id="32e69257-7997-4170-af80-b13372f06114" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,29 +30,32 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28e4cmZZb9ZzqnOM4d3YUdcVtgZ" />
+  <component name="ProjectId" id="28paqjV4xG20DleNQuV4knrYxIO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "cmake.loaded.for.project": "true",
+    "last_opened_file_path": "/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Settembre2015"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Marzo2015" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Marzo2015" TARGET_NAME="Marzo2015" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Marzo2015" RUN_TARGET_NAME="Marzo2015">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Settembre2015" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Settembre2015" TARGET_NAME="Settembre2015" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Settembre2015" RUN_TARGET_NAME="Settembre2015">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -61,17 +64,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="27297fe2-539c-4aa2-9ccb-5da6f1ad8e35" name="Changes" comment="" />
-      <created>1651563798530</created>
+      <changelist id="32e69257-7997-4170-af80-b13372f06114" name="Changes" comment="" />
+      <created>1651916174085</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651563798530</updated>
-      <workItem from="1651563800512" duration="467000" />
-      <workItem from="1651564280553" duration="14316000" />
-      <workItem from="1651651097848" duration="2875000" />
-      <workItem from="1652084815243" duration="28000" />
-      <workItem from="1652112724573" duration="907000" />
-      <workItem from="1652113988281" duration="3975000" />
+      <updated>1651916174085</updated>
+      <workItem from="1651916176890" duration="6718000" />
     </task>
     <servers />
   </component>
