@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include "mpi.h"
 #include "limits.h"
 #include "stdbool.h"
@@ -32,7 +33,7 @@ int main(int argc, char *argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &nProc);
     MPI_Comm_rank(MPI_COMM_WORLD, &myRank);
 
-    int n = nProc / 2;
+    int n = sqrt(nProc);
     int k = dim / n;
     int a[dim][dim], b[dim][dim];
 

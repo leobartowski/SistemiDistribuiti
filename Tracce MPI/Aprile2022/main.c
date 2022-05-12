@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &myRank);
     MPI_Comm_size(MPI_COMM_WORLD, &nProc);
     MPI_Status status;
-    MPI_Aint lb, extent;
+    MPI_Aint lb, extent; // NON LO USARE
 
     int k = matrixDim / nProc;
 

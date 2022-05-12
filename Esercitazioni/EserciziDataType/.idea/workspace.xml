@@ -5,7 +5,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Marzo2019" targetName="Marzo2019" />
+      <config projectName="EserciziDataType" targetName="EserciziDataType" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="515205af-3b55-4cfd-8aff-3ece35cfd61f" name="Changes" comment="" />
+    <list default="true" id="99813210-38ca-4a03-a6fa-8f0d713a858b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,28 +30,37 @@
     <option name="majorVersion" value="2022" />
     <option name="minorVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28h5mSy3rpxMwI5fxg290zHr8AB" />
+  <component name="ProjectId" id="28lEmHYoZvdeJ1Brk27vdg9swxY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Marzo2019&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "cmake.loaded.for.project": "true",
+    "last_opened_file_path": "/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Esercitazioni/EserciziDataType"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Marzo2019" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Marzo2019" TARGET_NAME="Marzo2019" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Marzo2019" RUN_TARGET_NAME="Marzo2019">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EserciziDataType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EserciziDataType" TARGET_NAME="EserciziDataType" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EserciziDataType" RUN_TARGET_NAME="EserciziDataType">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -60,15 +69,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="515205af-3b55-4cfd-8aff-3ece35cfd61f" name="Changes" comment="" />
-      <created>1651656135443</created>
+      <changelist id="99813210-38ca-4a03-a6fa-8f0d713a858b" name="Changes" comment="" />
+      <created>1651782931250</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651656135443</updated>
-      <workItem from="1651656136880" duration="3143000" />
-      <workItem from="1651673709824" duration="1332000" />
-      <workItem from="1651695294331" duration="9998000" />
-      <workItem from="1652349400194" duration="973000" />
+      <updated>1651782931250</updated>
+      <workItem from="1651782935278" duration="63000" />
+      <workItem from="1651783008452" duration="6813000" />
+      <workItem from="1651825201945" duration="619000" />
+      <workItem from="1651830670343" duration="2040000" />
+      <workItem from="1652202137479" duration="1557000" />
+      <workItem from="1652281197213" duration="696000" />
     </task>
     <servers />
   </component>

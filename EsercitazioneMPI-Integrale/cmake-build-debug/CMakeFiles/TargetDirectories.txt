@@ -1,3 +1,0 @@
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-Integrale/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-Integrale/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/leobartowski/Desktop/Es Sistemi Distribuiti FD/EsercitazioneMPI-Integrale/cmake-build-debug/CMakeFiles/EsercitazioneMPI_Integrale.dir
