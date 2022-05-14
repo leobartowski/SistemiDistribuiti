@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e0ab59-f40a-471c-ab3e-d0b39cc647a6" name="Changes" comment="" />
+    <list default="true" id="016ce283-acfc-400a-ae85-0d1b3e7f75f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,45 +21,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="294vLKeBa5KoL292zU2qAstrWR7" />
+  <component name="ProjectId" id="29AC3FupNIg6BqYZTWxWVES5kmF" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce RMI/Ottobre2017v2/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce RMI/Settembre2020"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Ottobre2017v2" />
+      <module name="Settembre2020" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Server1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server1" />
-      <module name="Ottobre2017v2" />
+      <module name="Settembre2020" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Server2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Server2" />
-      <module name="Ottobre2017v2" />
+      <module name="Settembre2020" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,15 +72,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="68e0ab59-f40a-471c-ab3e-d0b39cc647a6" name="Changes" comment="" />
-      <created>1652385114548</created>
+      <changelist id="016ce283-acfc-400a-ae85-0d1b3e7f75f2" name="Changes" comment="" />
+      <created>1652546301823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652385114548</updated>
-      <workItem from="1652385116181" duration="4444000" />
-      <workItem from="1652537807452" duration="376000" />
-      <workItem from="1652538285486" duration="391000" />
-      <workItem from="1652546281803" duration="26000" />
+      <updated>1652546301823</updated>
+      <workItem from="1652546303323" duration="2415000" />
     </task>
     <servers />
   </component>

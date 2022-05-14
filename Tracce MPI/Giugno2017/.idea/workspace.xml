@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="Giugno2017" targetName="Giugno2017" />
@@ -24,7 +27,6 @@
     <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2022" />
@@ -54,11 +56,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652371380759</updated>
       <workItem from="1652371382892" duration="1031000" />
-      <workItem from="1652372516814" duration="3850000" />
+      <workItem from="1652372516814" duration="4150000" />
+      <workItem from="1652448110798" duration="10000" />
     </task>
     <servers />
   </component>

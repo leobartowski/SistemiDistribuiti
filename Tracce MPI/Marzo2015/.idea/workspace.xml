@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="Marzo2015" targetName="Marzo2015" />
@@ -52,6 +55,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Marzo2015" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Marzo2015" TARGET_NAME="Marzo2015" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Marzo2015" RUN_TARGET_NAME="Marzo2015">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -72,6 +80,7 @@
       <workItem from="1652084815243" duration="28000" />
       <workItem from="1652112724573" duration="907000" />
       <workItem from="1652113988281" duration="3975000" />
+      <workItem from="1652454161141" duration="15000" />
     </task>
     <servers />
   </component>
