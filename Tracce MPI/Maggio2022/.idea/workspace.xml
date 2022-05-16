@@ -8,7 +8,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="EserciziDataType" targetName="EserciziDataType" />
+      <config projectName="Maggio2022" targetName="Maggio2022" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,7 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99813210-38ca-4a03-a6fa-8f0d713a858b" name="Changes" comment="" />
+    <list default="true" id="b07f76de-f7af-4268-b205-897f8b49162c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,34 +31,28 @@
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2022" />
-    <option name="minorVersion" value="1" />
+    <option name="minorVersion" value="1.1" />
   </component>
-  <component name="ProjectId" id="28lEmHYoZvdeJ1Brk27vdg9swxY" />
+  <component name="ProjectId" id="29Fb0AdXR5OgTBUkuLA74zbQkR3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Esercitazioni/EserciziDataType&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/leobartowski/Documents/GitHub Repo/SistemiDistribuiti/Tracce MPI/Maggio2022&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RunManager">
-    <configuration name="EserciziDataType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EserciziDataType" TARGET_NAME="EserciziDataType" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EserciziDataType" RUN_TARGET_NAME="EserciziDataType">
+    <configuration name="Maggio2022" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Maggio2022" TARGET_NAME="Maggio2022" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Maggio2022" RUN_TARGET_NAME="Maggio2022">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -67,21 +61,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="99813210-38ca-4a03-a6fa-8f0d713a858b" name="Changes" comment="" />
-      <created>1651782931250</created>
+      <changelist id="b07f76de-f7af-4268-b205-897f8b49162c" name="Changes" comment="" />
+      <created>1652711554575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651782931250</updated>
-      <workItem from="1651782935278" duration="63000" />
-      <workItem from="1651783008452" duration="6813000" />
-      <workItem from="1651825201945" duration="619000" />
-      <workItem from="1651830670343" duration="2040000" />
-      <workItem from="1652202137479" duration="1557000" />
-      <workItem from="1652281197213" duration="696000" />
-      <workItem from="1652390891351" duration="332000" />
-      <workItem from="1652448109675" duration="134000" />
-      <workItem from="1652605873501" duration="1481000" />
-      <workItem from="1652630536016" duration="1091000" />
+      <updated>1652711554575</updated>
+      <workItem from="1652711557179" duration="1880000" />
+      <workItem from="1652713594363" duration="5000" />
+      <workItem from="1652714576462" duration="364000" />
     </task>
     <servers />
   </component>
