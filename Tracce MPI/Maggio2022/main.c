@@ -62,6 +62,7 @@ int main(int argc, char *argv[]) {
     }
     MPI_Comm newComm;
     MPI_Comm_split(MPI_COMM_WORLD, color, 0, &newComm);
+
     if (color == 0) {
         MPI_Comm topologyComm;
         int nDims = 2;
@@ -75,11 +76,11 @@ int main(int argc, char *argv[]) {
         MPI_Cart_coords(topologyComm, myTopologyRank, nDims, coords);
 
         if (coords[0] == 0) {
-            int destCoords[2] = {coords[0] + 1, coords[1]};
-            int destRank;
+//            int destCoords[2] = {coords[0] + 1, coords[1]};
+//            int destRank;
             int destV2 = myTopologyRank + (nProc/2);
-            MPI_Cart_rank(topologyComm, destCoords, &destRank);
-            MPI_Send(&a[0][0], 1, MPI_INT, destRank, 5, topologyComm);
+//            MPI_Cart_rank(topologyComm, destV2, &destRank);
+            MPI_Send(&a[0][0], 1, MPI_INT, destV2, 5, topologyComm);
         } else {
             int temp;
             MPI_Recv(&temp, 1, MPI_INT, MPI_ANY_SOURCE, 5, topologyComm, MPI_STATUS_IGNORE);
